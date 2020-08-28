@@ -1,3 +1,4 @@
+package br.com.abc.introducao.exercicios;
 import java.util.Scanner;
 
 public class ExercicioControleFluxo {

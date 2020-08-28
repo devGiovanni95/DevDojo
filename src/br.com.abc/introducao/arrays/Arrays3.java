@@ -1,3 +1,4 @@
+package br.com.abc.introducao.arrays;
 public class Arrays3 {
     public static void main(String[] args) {
         int[] numeros = new int[5];

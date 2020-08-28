@@ -1,3 +1,4 @@
+package br.com.abc.introducao.exercicios;
 public class DesafioRelatorioPendencia2 {
     public static void main(String[] args) {
         String nome;

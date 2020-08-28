@@ -1,3 +1,4 @@
+package br.com.abc.introducao.arrays;
 public class Arrays6m {
     public static void main(String[] args) {
         int[] arrInt = {1,2,3};

@@ -1,5 +1,5 @@
+package br.com.abc.introducao.exercicios;
 import java.util.Scanner;
-
 public class DesafioRelatorioPendencia {
     public static void main(String[] args) {
         Scanner dados = new Scanner(System.in);

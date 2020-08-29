@@ -1,4 +1,4 @@
-package br.com.abc.javascore.introducaoclasses;
+package br.com.abc.javascore.introducaoclasses.classes;
 
 public class Estudante {
     public String nome;

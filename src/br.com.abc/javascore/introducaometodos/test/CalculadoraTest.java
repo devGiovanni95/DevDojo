@@ -5,9 +5,10 @@ public class CalculadoraTest{
     public static void main(String[] args) {
 
     Calculadora calc = new Calculadora();
-    calc.somaDoisNumeros ();
+    calc.somaDoisNumeros();
+    calc.subtraiDoisNumeros();
+
     System.out.println("Continue a operação");
-    
 
     }
 }

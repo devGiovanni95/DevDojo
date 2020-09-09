@@ -45,10 +45,18 @@ public class Calculadora {
     public void imprimeDoisNumerosDivididos(double num1, double num2) {
         if(num2 != 0) {
             System.out.println(num1/num2);
-            return   //para quebrar o laço de repetição podemos utilizar o return quando estamos utilizando o if para não precisarmos utilizar o else
+            return;  //para quebrar o laço de repetição podemos utilizar o return quando estamos utilizando o if para não precisarmos utilizar o else
             //ele é como se fosse o break do laço de retpetição 
         }
             System.out.println("Não é possivel dividir por 0");
         
+    }
+
+    public void alteraDoisNumeros(int num1, int num2) {
+        num1 = 30;
+        num2 = 40;
+        System.out.println("Dentro do altera dois numeros");
+        System.out.println("num1: "+num1);
+        System.out.println("num2: "+num2);
     }
 }

@@ -59,4 +59,22 @@ public class Calculadora {
         System.out.println("num1: "+num1);
         System.out.println("num2: "+num2);
     }
+
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        for(int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    //no var args podemos somente um tipo por array nao conseguimos ter un int e uma string por exemplo
+    //mas podemos colocar um tipo double na frente antes dele para entender que o 1 numero e do tipo double e o restante do tipo var args
+    public void somaVarArgs(int ... numeros){
+        int soma = 0;
+        for(int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }

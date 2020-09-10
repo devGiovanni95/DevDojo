@@ -22,5 +22,9 @@ public class CalculadoraTest{
 
     System.out.println("Continue a operação");
 
+    int[] numeros = {1,2,3,4,5};//passagem de numeros por parametros
+    calc.somaArray(numeros);
+    calc.somaVarArgs(1,2,3,4,5); //forma mais resumida de passar valores
+
     }
 }

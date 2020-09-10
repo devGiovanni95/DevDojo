@@ -14,12 +14,14 @@ public class Professor {
     public String rg;
     public String cpf;
 
-    public void imprime(Professor aux) {
-        System.out.println("---------------------");
-        System.out.println(aux.cpf);
-        System.out.println(aux.matricula);
-        System.out.println(aux.nome);
-        System.out.println(aux.rg);
+    public void imprime(/*Professor aux*/) {
+        System.out.println("---------------------");  //utilizamos o this para pegar os valores de dentro do proprio objetos; endereço de memoria onde ele se encontras
+        System.out.println(this.cpf);
+        System.out.println(this.matricula);
+        System.out.println(this.nome);
+        System.out.println(this.rg);
 
+//        aux.nome = "mario";
+//        System.out.println(aux.nome);
     }
 }

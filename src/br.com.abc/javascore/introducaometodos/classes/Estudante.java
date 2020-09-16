@@ -9,11 +9,11 @@ public class Estudante {
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
 
-        if (notas!=null)
-            for (double nota: notas ){
-                System.out.println(nota+ " ");
+        if (notas!=null) {
+            for (double nota : notas) {
+                System.out.println(nota + " ");
             }
-
+        }
     }
 
     public void tiraMedia() {

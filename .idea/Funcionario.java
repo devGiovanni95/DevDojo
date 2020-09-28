@@ -10,7 +10,7 @@ public class Funcionario {
 //        System.out.println("Dentro do construtor");
 //    }
 
-    public Funcionario(){
+    public Funcionario(String nome){
         this.nome= nome;    }
 
     /*quando adicionamos um novo metodo se tiver muitas pessoas que mexem no codigo, nao podemos alterar o metodo init pois quebraria  o codigo de todos que estivem usando
